@@ -1,22 +1,14 @@
 # Voice Classification
+## _Recognizing Speakers Using Machine Learning_
+This repository contains code that can be used to create a sample dataset of speakers from audio clips of them speaking, and then train a model to classify new samples of their audio using two different methods, chosen for the purpose of experimentation. One method runs recognition using a Residual Neural Network (RNN), while the other runs image recognition on spectrograms of the speaker's audio clips.
 
-This repository contains code for two methods of speaker classification using machine learning.
+While there are a number of existing example datasets for speaker recognition such as the popular [16000_pcm_speeches](https://www.kaggle.com/kongaevans/speaker-recognition-dataset) dataset, we wanted to see if we could create a classifier on our own voices. Therefore, this repository contains code (see 01_Spectrogram_Creation.ipynb) that can be used to take an example of your voice and make it useable by our speaker recognition algorithms.
 
-## Usage
+Together, the code in this repository will allow users to provide new pieces of speaker data, and build a model to classify examples of that speaker talking.
 
-This repository contains code for splitting an audio file into 1-second-long chunks, and then two examples of using that data to perform speaker recognition. Those speaker recognition examples will allow you to provide a new piece of audio data and classify which speaker is talking in the example.
-
-
-## Authors
-
-- [Daniel Siegel](https://github.com/danielmaxsiegel) - 101367445
-- [Michael McAllister](https://github.com/michaeldavidmcallister) - 101359469
-- [Hom Kandel](https://github.com/homnath008) - 101385341
-- [Eduardo Bastos de Moraes](https://github.com/eduardomoraes) - 101345799
-- [Juan Clackworthy](https://github.com/juanlukeclackworthy) - 101372229
+Created for Advanced Mathematical Concepts for Machine Learning at George Brown College.
 
 ## Contributing
-
 To submit changes to this repo, please do the following steps:
 - `git checkout main`
 - `git pull main`
@@ -29,3 +21,10 @@ To submit changes to this repo, please do the following steps:
 - `git push origin <your_branch_name>`
 - Open a Pull Request (PR) in Github, attempting to merge your branch into main, and request reviews from the group
 - When you have approvals, merge your pull request
+
+## Authors
+- [Daniel Siegel](https://github.com/danielmaxsiegel) - 101367445
+- [Michael McAllister](https://github.com/michaeldavidmcallister) - 101359469
+- [Hom Kandel](https://github.com/homnath008) - 101385341
+- [Eduardo Bastos de Moraes](https://github.com/eduardomoraes) - 101345799
+- [Juan Clackworthy](https://github.com/juanlukeclackworthy) - 101372229
